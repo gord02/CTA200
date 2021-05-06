@@ -1,0 +1,293 @@
+    1  cosmo1.cita.utoronto.ca
+    2  ssh -g -L5906:cosmo1.cita.utoronto.ca:5906 student13@gw.cita.utoronto.ca
+    3  ls
+    4  ssh student13@gw.cita.utoronto.ca
+    5  ssh -g -L5906:cosmo1.cita.utoronto.ca:5906 student13@gw.cita.utoronto.ca
+    6  ssh -g -L5906:cosmo1.cita.utoronto.ca:5906 student13@gw.cita.utoronto.ca
+    7  ls
+    8  cd Desktop
+    9  ls
+   10  cd ..
+   11  ls
+   12  ssh -g -L5906:cosmo1.cita.utoronto.ca:5906 student13@gw.cita.utoronto.ca
+   13  ssh student13@gw.cita.utoronto.ca
+   14  ssh student13@gw.cita.utoronto.ca/cita/local/bin/passwd
+   15  ssh student13@gw.cita.utoronto.ca
+   16  student13@gw.cita.utoronto.ca
+   17  student13@gw.cita.utoronto.castudent13@gw.cita.utoronto.ca
+   18  student13@gw.cita.utoronto.ca/cita/local/bin/passwd
+   19  ssh student13@gw.cita.utoronto.ca
+   20  ssh student13@gw.cita.utoronto.ca/cita/local/bin/passwd
+   21  ssh username@gw.cita.utoronto.ca
+   22  ls
+   23  cd assignments/
+   24  cd assignment1/
+   25  cd assignment_1/
+   26  ls
+   27  vimtutor
+   28  ls
+   29  ls -al
+   30  ls -a
+   31  mkdir CTA200H
+   32  cd CTA200H/
+   33  git clone https://github.com/CITA/CTA200H.git
+   34  ls
+   35  ls -la
+   36  ls
+   37  cd CTA200H/
+   38  ls
+   39  rm -rf CTA200H
+   40  ls
+   41  cd ..
+   42  rm -rf CTA200H
+   43  ls
+   44  git clone https://github.com/CITA/CTA200H.git
+   45  ls
+   46  cd CTA200H/
+   47  ls
+   48  cd lecture2
+   49  dir
+   50  cd /mnt/scratch-lustre
+   51  ls
+   52  whoami
+   53  cd student13
+   54  cd ~cta200
+   55  pwd
+   56  ls -l
+   57  find -name '*auss*'
+   58  pwd
+   59  ls
+   60  cd Research/
+   61  ls
+   62  cp -r ~cta200/Research/gauss2d .
+   63  cd gauss2d/
+   64  dir
+   65  cd ..
+   66  cd gauss2d/
+   67  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/student13/gauss2d
+   68  less gauss2d.cc 
+   69  cat Makefile 
+   70  make
+   71  dir
+   72  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   73  cd /mnt/scratch-lustre/student13/gauss2d
+   74  pwd
+   75  make
+   76  dir
+   77  emacs-nw
+   78  emacs -nw
+   79  ./gauss2d
+   80  pwd
+   81  ./gauss2d > data.txt
+   82  m data.txt 
+   83  dir
+   84  ./plot.py
+   85  ./plot.py < data.txt 
+   86  module load gcc/5.4.0
+   87  module load python/2.7.12
+   88  ./plot.py < data.txt 
+   89  git config user.name "gord02"
+   90  git config --global user.name "gord02"
+   91  git config
+   92  git config --global user.email gordon.hamilton1110@gmail.com
+   93  git config --list
+   94  cd
+   95  mkdir-p repos/gauss2d.git
+   96  mkdir -p repos/gauss2d.git
+   97  cd repos
+   98  dir
+   99  cd gauss2d.git/
+  100  git init --bare
+  101  dir
+  102  cd /mnt/scratch-lustre/student13/gauss2d/
+  103  dir
+  104  git init
+  105  echo "*.o" > .gitignore
+  106  dir
+  107  git config --global user.name "Gordon"
+  108  git config --list
+  109  who
+  110  pwd
+  111  ls
+  112  pwd
+  113  mkdir assignments
+  114  cd assignments/
+  115  mkdir assignment1
+  116  cd assignment1/
+  117  git init
+  118  git commit -m "first commit"
+  119  git branch -M main
+  120  git branch -M master
+  121  echo "# CTA200" >> README.md
+  122  git add README.md
+  123  git commit -m "second  commit"
+  124  git branch -M main
+  125  git remote add origin git@github.com:gord02/CTA200.git
+  126  git push -u origin main
+  127  git push -u origin master
+  128  git push -u origin main
+  129  pwd
+  130  ls -al ~/.ssh
+  131  ls
+  132  vi
+  133  vi README.md 
+  134  git commmit -m "liecense added"
+  135  git commit -m "liecense added"
+  136  git add .
+  137  git commit -m "liecense added"
+  138  git push origin HEAD
+  139  ssh-add ~/.ssh/id_rsa
+  140  ls -al ~/.ssh
+  141  ssh-add ~/.ssh/known_hosts 
+  142  ssh-keygen
+  143  git push origin HEAD
+  144  ls -al ~/.ssh
+  145  cd .ssh more id_rsa.pub
+  146  .ssh more id_rsa.pub
+  147  cd ~/.ssh
+  148  more id_rsa.pub 
+  149  cd ..
+  150  ls
+  151  cd Desktop/
+  152  ls
+  153  cd assignments/
+  154  ls
+  155  cd assignment1/
+  156  ls
+  157  git add .
+  158  git push origin HEAD
+  159  mkdir assignment_1
+  160  git add .
+  161  git commit -m "added folder "
+  162  git push origin main
+  163  ls
+  164  git help
+  165  git status
+  166  git branch
+  167  git push origin main
+  168  rm -rf assignment_1/
+  169  ls
+  170  mkdir assignment_1
+  171  ls
+  172  git add .
+  173  git commit -m "added folder"
+  174  cd assignment_1/
+  175  touch text.txt
+  176  cd ..
+  177  git add .
+  178  git commit -m "added text file into folder"
+  179  git push origin main
+  180  cd assignment_1/
+  181  ls
+  182  rm text.txt 
+  183  ls
+  184  rm text.txt 
+  185  ls
+  186  touch average.c
+  187  vi average.c 
+  188  cat average.c 
+  189  touch average.h
+  190  touch main.c
+  191  vi average.h
+  192  vi main.c 
+  193  cat main.c 
+  194  cat average.h
+  195  vi Makefile
+  196  make 
+  197  vim main.c 
+  198  vi main.c 
+  199  vimtutor
+  200  vi main.c 
+  201  make 
+  202  cat main.c
+  203  cat average.h
+  204  vi average.h
+  205  cat average.h
+  206  make 
+  207  cat main.c
+  208  cat Makefile 
+  209  vi Makefile 
+  210  make
+  211  cat main.c
+  212  cat Makefile 
+  213  gcc main.c -o main.x
+  214  vi Makefile 
+  215  make
+  216  cat Makefile 
+  217  vi Makefile 
+  218  make
+  219  vi Makefile 
+  220  make
+  221  vi Makefile 
+  222  make
+  223  vi Makefile 
+  224  make
+  225  vi Makefile 
+  226  make
+  227  vi Makefile 
+  228  make
+  229  vi Makefile 
+  230  pwd
+  231  cd assignments/assignment1/assignment_1/
+  232  pwd
+  233  ls
+  234  vi Makefile 
+  235  make
+  236  vi Makefile 
+  237  make
+  238  vi Makefile 
+  239  make
+  240  cd assignments/assignment1/assignment_1/
+  241  vi Makefile 
+  242  make
+  243  vi Makefile 
+  244  make
+  245  vi Makefile 
+  246  make
+  247  vi Makefile 
+  248  gcc main.c -o main
+  249  vi Makefile 
+  250  make
+  251  vi Makefile 
+  252  make
+  253  vi Makefile 
+  254  make
+  255  gcc -o main main.c average.c -I.
+  256  vi Makefile 
+  257  make
+  258  gcc -o main main.c average.c -I -std=c99.
+  259  gcc -o main main.c average.c -I -std=c99 .
+  260  gcc -o main main.c average.c -I -std=c99
+  261  vi Makefile 
+  262  make
+  263  vi Makefile 
+  264  make
+  265  cat -e -t -v Makefile 
+  266  ls
+  267  vi Makefile 
+  268  make target
+  269  vi Makefile 
+  270  make target
+  271  make
+  272  vi Makefile 
+  273  make
+  274  vi Makefile 
+  275  make target
+  276  vi Makefile 
+  277  uname -v
+  278  uname
+  279  vi Makefile 
+  280  make clean
+  281  vi Makefile 
+  282  make clean
+  283  make target
+  284  vi Makefile 
+  285  make target
+  286  vi Makefile 
+  287  make target
+  288  make
+  289  git add .
+  290  git commit -m "Makefile pushed but not properly working with error I cannot fix "
+  291  git push origin HEAD
+  292  history
+  293  history > history.txt
