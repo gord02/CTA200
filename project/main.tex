@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+% \graphicspath{{./}}
+\usepackage[Export]{adjustbox}
+% \adjustboxset{max size={\textwidth}{0.9\textheight}}
+
+\title{Final Project}
+\author{Gordon Hamilton}
+\date{May 14th 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+The goal of this project is to familiarize oneself with how the existing CHIME/FRB databases are structured and how they can be queried using APIs that are relevant to the CHIME/FRB -Zoonivese backend.
+
+\subsection{RFI events}
+\includegraphics[scale=0.8]{RFI_Figure.png}
+\caption{Figure 1: The data shown for the signal to noise ratio of the RFI category approximately ranges from 7.5 to around 18.0. This data therefore signifies a tight spread and peaks at approximately 8.75.}
+
+\pagebreak
+
+\subsection{Known Candidate events}
+\includegraphics[scale=0.8]{KC_Figure.png}
+\caption{Figure 2: The signal to noise ratio for the Known Candidate category has a large spread with a range from approximately 10 to 120, but with very few instances of snr ratio towards the 120. The bulk of the data lies within the range of approximately 8 to 35. The data also peaks at a ratio of around 10.}
+
+\subsection{New Candidate events}
+\includegraphics[scale=0.8]{NC_Figure.png}
+\caption{Figure 3: The data for signal-to-noise ratio for the New Candidate category is spread from approximately 8 to around 120, and a significant amount of the data is dispersed throughout the range but more closely concentrated towards the value of 10. The peak of this data is approximately 8.\\}
+
+\subsection{Comparison}
+Of the three categories of RFI, Known Candidates and New Candidates, I believe that the data for signal-to-noise ratio for the New Candidate category is the most spread out, with values ranging from approximately 9 to around 120. The New Candidates category, similar to the other event categories, has more data points that are concentrated at the ratio value of 10, but this category spreads out more towards 120 unlike the others which only have a few data points that stray from the concentrated area around 9.
+\end{document}
